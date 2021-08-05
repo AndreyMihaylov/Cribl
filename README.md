@@ -1,5 +1,6 @@
 # Cribl
 Hello. I'd like to introduce a test automation project. I created that base on the assignment task (QA_Engineering__NEW.pdf).
+First of all i reviewed app.js and all inner files. I've found that host and port were setup wrong. I fixed that. Hostname is '127.0.0.1'. Each service listen their port.
 For this task, I was using the Mocha framework.
 I had tree options:
 	1) Java with TestNg.
