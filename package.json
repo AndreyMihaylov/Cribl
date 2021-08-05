@@ -1,0 +1,30 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Crible",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "brew": "^0.0.8",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "line-reader": "^0.4.0",
+    "node": "^16.6.1",
+    "shelljs": "^0.8.4",
+    "tcp-port-used": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0"
+  },
+  "scripts": {
+    "test_install": "mocha './test/test_install.js' --timeout 10000",
+    "test_files": "mocha './test/test_files.js' --timeout 10000",
+    "test_content": "mocha './test/test_content.js' --timeout 10000"
+  },
+  "author": "Andrei",
+  "license": "ISC"
+}

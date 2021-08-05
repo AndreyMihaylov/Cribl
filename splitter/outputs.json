@@ -1,0 +1,12 @@
+{
+    "tcp" : [
+        {
+            "host" : "localhost",
+            "port" : 9996
+        },
+        {
+            "host" : "localhost",
+            "port" : 9997
+        }
+    ]
+}
